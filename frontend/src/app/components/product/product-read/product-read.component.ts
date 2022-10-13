@@ -9,7 +9,7 @@ import { ProdcutService } from 'src/app/services/prodcut.service';
 })
 export class ProductReadComponent implements OnInit {
   products:Product[] = []
-  displayedColumns = ['id','name','price'];
+  displayedColumns = ['id','name','price','action'];
   constructor(private productService:ProdcutService) { }
 
   ngOnInit(): void {

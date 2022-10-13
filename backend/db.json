@@ -1,11 +1,6 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": 5.89
-    },
-    {
       "id": 2,
       "name": "Galaxy S22+",
       "price": 5000
@@ -14,12 +9,12 @@
       "name": "Mouse Gamer",
       "price": "50",
       "id": 3
-    },
-    {
-      "name": "S10 +",
-      "price": "1500",
-      "id": 4
     }
   ],
-  "users": [{ "id": 1, "name": "Rodolfo Marcondes" }]
+  "users": [
+    {
+      "id": 1,
+      "name": "Rodolfo Marcondes"
+    }
+  ]
 }
